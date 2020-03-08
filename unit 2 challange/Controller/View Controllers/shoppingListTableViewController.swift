@@ -64,6 +64,7 @@ class shoppingListTableViewController: UITableViewController {
     }
 }// End of class
 
+// Protocol that actually executes the action
 extension shoppingListTableViewController: shoppingListTableViewCellDelegate {
     func toggleImage(for cell: shoppingListTableViewCell) {
         guard let indexPath = tableView.indexPath(for: cell) else {return}

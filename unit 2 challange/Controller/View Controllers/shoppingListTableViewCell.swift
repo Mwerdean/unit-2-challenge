@@ -8,6 +8,8 @@
 
 import UIKit
 
+
+// Protocol start
 protocol shoppingListTableViewCellDelegate: class {
     func toggleImage(for cell: shoppingListTableViewCell)
 }
